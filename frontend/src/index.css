@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
-body{
+body {
   height: 100vh;
   width: 100%;
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }
