@@ -34,7 +34,7 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex items-center">
-              <button className="bg-orange-300/30 text-orange-400 font-semibold px-4 py-2 rounded-lg cursor-pointer">
+              <button className="bg-orange-300/30 text-orange-400 font-medium px-4 py-2 rounded-lg cursor-pointer">
                 Try for free
               </button>
             </div>
