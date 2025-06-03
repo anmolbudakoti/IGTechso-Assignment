@@ -1,6 +1,6 @@
 import { ArrowDownCircle, LucideArrowDown } from "lucide-react";
 
-export default function CoreFeatures() {
+export default function CoreFeatures({ scrollToSection }) {
   return (
     <>
       <div className="flex justify-center items-center w-full py-16">
@@ -46,7 +46,10 @@ export default function CoreFeatures() {
               Explore details
             </button>
           </div>
-          <button className="absolute bottom-5 left-1/2 animate-bounce bg-gray-300/30 p-2 rounded-full z-50">
+          <button
+            onClick={() => scrollToSection()}
+            className="absolute bottom-5 left-1/2 animate-bounce bg-gray-300/30 p-2 rounded-full z-50 cursor-pointer"
+          >
             <LucideArrowDown className="h-8 w-8 text-gray-500" />
           </button>
         </div>

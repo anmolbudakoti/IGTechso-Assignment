@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-export default function PopularCourses() {
+export default function PopularCourses({sectionRef}) {
   const [openDetails, setOpenDetails] = useState(null);
   const courses = [
     {
@@ -75,7 +75,7 @@ export default function PopularCourses() {
   }
   return (
     <>
-      <div className="h-screen py-16 flex justify-center items-center">
+      <div ref={sectionRef} className="h-screen py-16 flex justify-center items-center">
         <div className="max-w-7xl flex flex-col items-center gap-4">
           <div className="flex flex-col items-center justify-center text-center gap-3">
             <p className="font-light text-orange-500">QUALITY FEATURES</p>

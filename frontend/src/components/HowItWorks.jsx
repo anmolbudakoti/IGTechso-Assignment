@@ -23,7 +23,7 @@ export default function HowItWorks() {
   ];
   return (
     <>
-      <div className="h-screen w-full py-16 flex flex-col items-center px-10 gap-36">
+      <div className="h-screen w-full py-16 flex flex-col items-center px-10 gap-40">
         <div className="flex flex-col items-center justify-center text-center gap-3">
           <p className="font-light text-orange-500">WHAT'S THE FUNCTION</p>
           <h1 className="font-semibold text-4xl">Let's see how it works</h1>
