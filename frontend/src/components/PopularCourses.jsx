@@ -75,7 +75,7 @@ export default function PopularCourses() {
   }
   return (
     <>
-      <div className="py-16 flex justify-center items-center">
+      <div className="h-screen py-16 flex justify-center items-center">
         <div className="max-w-7xl flex flex-col items-center gap-4">
           <div className="flex flex-col items-center justify-center text-center gap-3">
             <p className="font-light text-orange-500">QUALITY FEATURES</p>
