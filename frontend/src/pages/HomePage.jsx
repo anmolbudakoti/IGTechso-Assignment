@@ -1,6 +1,7 @@
 import CoreFeatures from "../components/CoreFeatures";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
+import PopularCourses from "../components/PopularCourses";
 import QualityFeatures from "../components/QualityFeatures";
 
 export default function HomePage() {
@@ -10,6 +11,7 @@ export default function HomePage() {
       <HeroSection />
       <QualityFeatures />
       <CoreFeatures />
+      <PopularCourses />
     </>
   );
 }
