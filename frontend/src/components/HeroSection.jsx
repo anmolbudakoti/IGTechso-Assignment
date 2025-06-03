@@ -60,7 +60,7 @@ export default function HeroSection() {
                   <img
                     src={womenlearning}
                     alt="Woman using laptop"
-                    className="bg-cover rounded-md h-full w-full"
+                    className="object-cover rounded-md h-full w-full"
                   />
                   <button
                     onClick={() => setIsVideoPlaying(true)}
