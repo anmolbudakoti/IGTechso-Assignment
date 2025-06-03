@@ -1,6 +1,7 @@
 import { Play, Search, Star } from "lucide-react";
 import { useState } from "react";
 import womenlearning from "../assets/women-using-laptop.jpg";
+import dummyVideo from "../assets/vegeta.mp4";
 
 export default function HeroSection() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -64,7 +65,7 @@ export default function HeroSection() {
                   />
                   <button
                     onClick={() => setIsVideoPlaying(true)}
-                    className="absolute top-1/2 left-1/2 cursor-pointer bg-gray-300/70 p-4 rounded-full hover:scale-110 transition-all"
+                    className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 cursor-pointer bg-gray-300/70 p-4 rounded-full hover:scale-110 transition-all"
                   >
                     <Play className="h-8 w-8 fill-white text-white" />
                   </button>
@@ -72,9 +73,9 @@ export default function HeroSection() {
               ) : (
                 <div className="h-full w-full">
                   <video
-                    className="h-full w-full rounded-md"
+                    className="h-full w-full rounded-md object-cover"
                     controls
-                    src="https://youtu.be/KPnGKAEEgTU?si=0H3gW204_awzvdQc"
+                    src={dummyVideo}
                   />
                 </div>
               )}
